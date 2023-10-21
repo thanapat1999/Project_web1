@@ -4,30 +4,31 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Project_web</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Project_web.styles.css" asp-append-version="true" />
-    
-</head>
-<body>
-    <header>
-        <div class="container">
-            <img src="photo.png" alt="" style="">
-        </div>
-        <div>Home</div>
-        <div>About</div>
-        <div>Service</div>
-        <div>profolio</div>
-        <div>contact</div>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    <link rel="stylesheet" href="~/css/login.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/8a42fdd63a.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="">
+    <header>
+
+            <div class="logo">
+                <img src="https://scontent.fbkk5-4.fna.fbcdn.net/v/t1.15752-9/394117893_1109527910427292_4445855294360337515_n.png?_nc_cat=110&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFKmGRcPaKfUm9n_vWBhxAbtio_9eDkccy2Kj_14ORxzG6WoSNUyM16dHF_dMGtPvWu71id04R47-SU53VKnaVW&_nc_ohc=XG6N_Dja_hQAX_dn6yK&_nc_ht=scontent.fbkk5-4.fna&_nc_e2o=f&oh=03_AdSnGkM0zOXzFJpbrIp9lvIQslf3X6c_GORLrw3zStvV2g&oe=655A943D" alt="" style="">
+            </div>
+            <div class="about">
+                <button><a href="#" target="_blank">About Us</a></button>
+            </div>
+        
+    </header>
+        <main role="main" class="pb-3">
+              @RenderBody()
+        </main>
     <footer class="border-top footer text-muted">
-        <div class="container">
+        <div class="co">
             &copy; 2023 - Project_web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
