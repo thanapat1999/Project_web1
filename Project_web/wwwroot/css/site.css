@@ -465,3 +465,9 @@ body {
     justify-content: center;
 }
 
+
+.navbar-logo {
+    max-width: 100px;
+    border: 2px solid blue;
+    height: auto;
+}

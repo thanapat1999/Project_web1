@@ -7,11 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\rub_fakk.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.9" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Views\Shared\photo\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\rub_fakk.jpg" />
   </ItemGroup>
 
 </Project>
